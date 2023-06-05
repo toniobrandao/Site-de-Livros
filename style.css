@@ -723,3 +723,20 @@ h4 {
   font-weight: bold;
   font-size: 16px;
 }
+
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* CSS rules specific to small screens */
+}
+
+/* Styles for screens between 601px and 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* CSS rules specific to medium screens */
+}
+
+/* Styles for screens larger than 1024px */
+@media (min-width: 1025px) {
+  /* CSS rules specific to large screens */
+}
+
