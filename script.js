@@ -10,6 +10,30 @@ const nav = document.querySelector('.nav');
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
+///////////////////////////////////////
+// JavaScript code to update the viewport based on device width
+let initialScale;
+let deviceWidth =
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+
+console.log(deviceWidth);
+if (deviceWidth < 768) {
+  initialScale = 0.2; // Set initial scale for smaller devices
+} else {
+  initialScale = 0.2; // Set initial scale for larger devices
+}
+
+window.onload = function () {
+  let viewportMeta = document.getElementById('viewport-meta');
+  viewportMeta.setAttribute(
+    'content',
+    'width=device-width, initial-scale=' + initialScale
+  );
+};
+
+
 
 ///////////////////////////////////////
 // Modal window
