@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Uma Jornada por Leituras Notáveis</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          data-version-number="3.0"
+
+          
+        />
+        <span class="nav__text">Leiturama</span>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Livros</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Tipos de Leituras</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Autores</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Me mande uma mensagem</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          <!-- Green highlight effect -->
+          <span class="highlight">Explorando</span>
+          Livros Notáveis
+          <br />
+          <h4>Uma Jornada Pelas Melhores Leituras</h4>
+        </h1>
+        <div class="container">
+          <div class="image-container">
+            <img src="img/perfil.jpg" alt="Profile Picture" class="foto__perfil">
+          </div>
+          <div class="text-container">
+            <p class="author">Por: Antônio Brandão</p>
+          </div>
+        </div>
+
+
+        <button class="btn--text btn--scroll-to">
+          Comece a explorar! &DownArrow;
+        </button>
+        <img
+          src="img/livros.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Principais</h2>
+        <h3 class="section__header">
+          Alguns livros podem mudar sua forma de ver o mundo
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/rapido-devagar-lazy.jpg"
+          data-src="img/rapido-devagar.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book-open"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Rápido e Devagar: Duas Formas de Pensar
+          </h5>
+          <p>
+            Escrito pelo psicólogo Daniel Kahneman,explora os dois sistemas de pensamento presentes em nossas mentes. O sistema rápido, intuitivo e emocional é responsável por tomar decisões rápidas, enquanto o sistema lento, deliberativo e lógico é utilizado para decisões mais complexas. Kahneman descreve como esses sistemas interagem, muitas vezes resultando em vieses e erros cognitivos. Ele explora temas como a ilusão da intuição, heurísticas, aversão à perda e o impacto da emoção nas decisões. O livro oferece insights valiosos sobre como nossa mente funciona e como podemos tomar decisões mais conscientes e informadas.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Antifrágil: Coisas que se beneficiam com o caos</h5>
+          <p>
+            Escrito por Nassim Nicholas Taleb, explora o conceito de antifragilidade. Taleb argumenta que existem sistemas e entidades que não apenas resistem ao caos e incerteza, mas também se beneficiam deles. Ele critica a abordagem convencional de tentar evitar riscos e propõe que devemos nos concentrar em construir resiliência e adaptabilidade. O autor examina diversos exemplos, desde sistemas biológicos até instituições financeiras, para ilustrar como a antifragilidade pode ser aplicada em diferentes domínios. O livro desafia nossas noções tradicionais de estabilidade e oferece uma nova perspectiva sobre como prosperar em um mundo complexo e imprevisível.
+          </p>
+        </div>
+        <img
+          src="img/antifragil-lazy.jpg"
+          data-src="img/antifragil.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/sapiens-lazy.jpg"
+          data-src="img/sapiens.jpeg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-compass"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Sapiens: Uma breve história da humanidade</h5>
+          <p>
+            Escrito por Yuval Noah Harari,oferece uma visão abrangente da história da humanidade. O autor explora a evolução da espécie humana, desde os primeiros hominídeos até a sociedade moderna. Harari discute como a capacidade única dos seres humanos de criar mitos e cooperar em grande escala permitiu que eles se tornassem a espécie dominante no planeta. O livro aborda temas como a revolução cognitiva, a agricultura, o surgimento das cidades, a criação de impérios e a revolução científica. Harari também explora as implicações da história humana em relação ao presente e ao futuro da nossa espécie. "Sapiens" desafia nossa compreensão convencional da história e nos convida a refletir sobre a trajetória da humanidade e seu impacto no mundo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Entenda</h2>
+        <h3 class="section__header">
+          Um resumo dos tipos de cada leitura.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Rápido e Devagar
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Antifágil
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Sapiens
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Livro internalizado, mais voltado para a mente
+          </h5>
+          <p>
+            Com uma abordagem introspectiva, o livro convida os leitores a uma jornada de autoconhecimento, oferecendo insights valiosos para aprimorar as habilidades de pensamento e tomar decisões mais informadas. É uma leitura essencial para compreender a complexidade da mente humana e explorar seu potencial.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Livro externalizado, mais voltado para a análise do ambiente
+          </h5>
+          <p>
+            Taleb que tem um foco mais externalizado, voltado para a análise do ambiente em vez de se concentrar apenas na mente humana. Taleb explora o conceito de antifragilidade, discutindo como certos sistemas, instituições e ideias não apenas resistem aos eventos caóticos e incertos, mas realmente se fortalecem com eles. Ele examina uma variedade de domínios, desde a biologia até a economia, para mostrar como a adaptação, a resiliência e a flexibilidade são essenciais para prosperar em um mundo complexo e imprevisível. 
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-compass"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Análise histórica e comportamental da sociedade.
+          </h5>
+          <p>
+            O livro oferece uma análise histórica e comportamental da sociedade humana, explorando o conceito de realidade intersubjetiva. Harari mostra como as narrativas compartilhadas, como dinheiro, religião e sistemas políticos, desempenham um papel fundamental na cooperação em larga escala. O livro nos desafia a refletir sobre nossa natureza humana, história e o futuro da sociedade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Gostou dos livros?</h2>
+        <h3 class="section__header">
+          Conheça os Autores: Descubra as Mentes por Trás da Obra
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Daniel Kahneman</h5> -->
+            <blockquote class="testimonial__text">
+              Daniel Kahneman, renomado psicólogo e Nobel de Economia, nasceu em 1934 em Tel Aviv, Israel.
+               Seu trabalho influencia a economia comportamental e a psicologia cognitiva, principalmente por meio da teoria 
+               prospectiva e da análise da tomada de decisões humanas. Suas pesquisas revelam vieses e irracionalidades que
+                moldam nossos julgamentos e escolhas, desafiando as suposições de racionalidade.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Daniel Kahneman</h6>
+              <p class="testimonial__location">Autor de Rápido e Devagar: Duas Formas de Pensar</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+            </h5>
+            <blockquote class="testimonial__text">
+              Nassim Nicholas Taleb é um renomado autor, filósofo e ex-operador de mercado conhecido por suas ideias provocadoras sobre riscos, incertezas e conhecimento humano. Seus livros desafiam convenções e promovem a resiliência e adaptabilidade diante do caos. Com uma mistura única de erudição, humor e pensamento iconoclasta, Taleb oferece uma perspectiva estimulante e influente.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Nassim Nicholas Taleb</h6>
+              <p class="testimonial__location">Autor de Antifrágil: Coisas que se Beneficiam com o Caos </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+            </h5>
+            <blockquote class="testimonial__text">
+              Yuval Noah Harari, renomado autor e historiador israelense, é conhecido por suas análises interdisciplinares que conectam eventos históricos com questões contemporâneas. Seu livro mais famoso, "Sapiens: Uma Breve História da Humanidade", explora o papel das narrativas compartilhadas na cooperação em larga escala, desafiando os leitores a refletir sobre a natureza humana e o futuro da sociedade. Sua escrita envolvente convida os leitores a uma jornada de autoconhecimento e compreensão do mundo ao redor.
+          <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Yuval Harari</h6>
+              <p class="testimonial__location"</p>Autor de Sapiens: Uma Breve História da Humanidade
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Obrigado por chegar até aqui, espero que tenha gostado!
+
+          <a class="footer__link twitter-link"
+          target="_blank" href="https://www.linkedin.com/in/ant%C3%B4nio-brand%C3%A3o-lima-517618190/" class="features__icon__linkedin">
+          <div class="features__icon__linkedin">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-linkedin"></use>
+            </svg>
+            <span
+              href="https://www.linkedin.com/in/ant%C3%B4nio-brand%C3%A3o-lima-517618190/"
+              class="smaller-text"
+              >Antônio Brandão</span
+            ></a>
+          </div>
+        </h3>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <!-- <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li> -->
+        <li class="footer__item">
+          <a class="footer__link" href="#">Volte para o topo</a>
+        </li>
+        <!-- <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li> -->
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/ant%C3%B4nio-brand%C3%A3o-lima-517618190/"
+          >Antônio Brandão</a
+        >.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Me dê sugestões ou <br />
+         <span class="highlight">ideias!</span>
+      </h2>
+      <form class="modal__form">
+        <label>Nome</label>
+        <input type="text" />
+        <label>E-mail</label>
+        <input type="text" />
+        <label>Mensagem</label>
+        <input type="email" />
+        <button class="btn">Enviar &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
